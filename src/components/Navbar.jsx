@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 import { styles } from "../style";
 import { navLinks } from "../constants";
@@ -28,6 +29,13 @@ const Navbar = () => {
             <span className="sm:block hidden">Full Stack Developer</span>
           </p>
         </Link>
+        <ul className="list-none hidden sm:flex flex-row gap-10">
+          {navLinks.map((link) => (
+            <li key={link.id}>
+              <HashLink to={`#${link.id}`}>{link.title}</HashLink>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   );
