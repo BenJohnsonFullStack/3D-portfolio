@@ -12,13 +12,13 @@ const Computer = () => {
         minPolarAngle={Math.PI / 2}
       />
       <mesh>
-        <hemisphereLight intensity={2.25} groundColor="black" />
-        <pointLight />
+        <hemisphereLight intensity={1.75} groundColor="black" />
+        <pointLight position={[0, -2.25, 0]} />
         <spotLight
           position={[-1, 5, 1]}
           angle={0.4}
           penumbra={1}
-          intensity={50}
+          intensity={70}
           castShadow={true}
         />
         <primitive
