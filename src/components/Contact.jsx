@@ -42,6 +42,7 @@ const Contact = () => {
           to_name: "Ben Johnson",
           from_email: form.email,
           to_email: "lobi.software.studio@gmail.com",
+          message: form.message,
         },
         "9XZ5Lzamj_P6uvMA1"
       )
