@@ -1,7 +1,6 @@
-/* eslint-disable react/no-unknown-property */
 import { OrbitControls, useGLTF } from "@react-three/drei";
 
-const Computer = () => {
+const Computer = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
@@ -13,18 +12,18 @@ const Computer = () => {
       />
       <mesh>
         <hemisphereLight intensity={1.75} groundColor="black" />
-        <pointLight position={[0, -2.25, 0]} />
+        <pointLight position={[0, -2.1, 0]} intensity={2} />
         <spotLight
           position={[-1, 5, 1]}
           angle={0.4}
           penumbra={1}
-          intensity={70}
+          intensity={50}
           castShadow={true}
         />
         <primitive
           object={computer.scene}
-          scale={0.75}
-          position={[0, -5.25, -1.5]}
+          scale={isMobile ? 0.3 : 0.75}
+          position={isMobile ? [0, -2.25, -0.5] : [0, -5.25, -1.5]}
           rotation={[-0.01, -0.2, -0.1]}
         />
       </mesh>
