@@ -7,6 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+// template_d1v8y8f
+// service_p6an34u
+// 9XZ5Lzamj_P6uvMA1
+
 const initialFormValues = {
   name: "",
   email: "",
@@ -17,9 +21,42 @@ const Contact = () => {
   const [form, setForm] = useState(initialFormValues);
   const [loading, setLoading] = useState(false);
 
-  const handleChange = () => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
 
-  const handleSubmit = () => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_p6an34u",
+        "template_d1v8y8f",
+        {
+          from_name: form.name,
+          to_name: "Ben Johnson",
+          from_email: form.email,
+          to_email: "lobi.software.studio@gmail.com",
+        },
+        "9XZ5Lzamj_P6uvMA1"
+      )
+      .then(() => {
+        setLoading(false);
+        alert(
+          "Thank you for contacting me. I will get back to you as soon as possible."
+        );
+        setForm(initialFormValues);
+      })
+      .catch((err) => {
+        setLoading(false);
+        console.log(err);
+      });
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
