@@ -17,10 +17,11 @@ const Ball = ({ imgUrl, index }) => {
       <mesh castShadow={true} receiveShadow={true} scale={2.75}>
         <OrbitControls
           autoRotate={true}
+          reverseOrbit
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
-          autoRotateSpeed={13}
+          autoRotateSpeed={15}
         />
         <sphereGeometry args={[1, 200, 200]} />
         <meshStandardMaterial
