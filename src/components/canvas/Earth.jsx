@@ -24,7 +24,7 @@ const Earth = () => {
         <pointLight intensity={5} position={[2, 2, 2]} />
         <primitive
           object={earth.scene}
-          scale={12}
+          scale={11}
           position-y={0}
           rotation-y={0}
         />

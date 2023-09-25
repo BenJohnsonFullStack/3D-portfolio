@@ -15,9 +15,8 @@ import {
   git,
   figma,
   docker,
-  starbucks,
-  tesla,
-  shopify,
+  chilis,
+  lobi,
   carrent,
   jobit,
   tripguide,
@@ -117,8 +116,8 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Lobi Software Studio",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: lobi,
+    iconBg: "black",
     date: "March 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -130,7 +129,7 @@ const experiences = [
   {
     title: "Kitchen Manager",
     company_name: "Chili's",
-    icon: tesla,
+    icon: chilis,
     iconBg: "#E6DEDD",
     date: "March 2022 - Feb 2023",
     points: [
@@ -143,7 +142,7 @@ const experiences = [
   {
     title: "Owner/Founder",
     company_name: "Snoots Pet Care",
-    icon: shopify,
+    icon: reactjs,
     iconBg: "#383E56",
     date: "Aug 2016 - April 2022",
     points: [

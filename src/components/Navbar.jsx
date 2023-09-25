@@ -27,7 +27,7 @@ const Navbar = () => {
         >
           <MolluskLogo />
           <p className="text-white text-[18px] font-bold cursor-pointer flex items-center">
-            <div className="w-[2px] h-8 bg-[#aaa6c3] ml-8"></div>
+            <div className="w-[2px] h-8 bg-[#aaa6c3] ml-8 md:block hidden"></div>
             <span className="md:block hidden pl-8 text-secondary font-medium text-[14px]">
               Full Stack Developer
             </span>
