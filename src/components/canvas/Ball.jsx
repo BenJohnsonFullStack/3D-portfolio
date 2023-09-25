@@ -16,16 +16,13 @@ const Ball = ({ imgUrl, index }) => {
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow={true} receiveShadow={true} scale={2.75}>
         <OrbitControls
-          autoRotate={true}
-          reverseOrbit
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
-          autoRotateSpeed={15}
         />
         <sphereGeometry args={[1, 200, 200]} />
         <meshStandardMaterial
-          color={index % 2 === 0 ? "#4b4363" : "#aea6c6"}
+          color={index % 2 === 0 ? "#4b4363" : "#6d65b5"}
           polygonOffset={true}
           polygonOffsetFactor={-5}
           flatShading={true}

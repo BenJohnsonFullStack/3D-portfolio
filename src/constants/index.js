@@ -5,6 +5,16 @@ import {
   web,
   javascript,
   html,
+  bash,
+  express,
+  framerMotion,
+  heroku,
+  illustrator,
+  jest,
+  postgres,
+  postman,
+  threejs,
+  vscode,
   css,
   reactjs,
   redux,
@@ -85,6 +95,46 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "bash",
+    icon: bash,
+  },
+  {
+    name: "express",
+    icon: express,
+  },
+  {
+    name: "framerMotion",
+    icon: framerMotion,
+  },
+  {
+    name: "heroku",
+    icon: heroku,
+  },
+  {
+    name: "illustrator",
+    icon: illustrator,
+  },
+  {
+    name: "jest",
+    icon: jest,
+  },
+  {
+    name: "postgres",
+    icon: postgres,
+  },
+  {
+    name: "postman",
+    icon: postman,
+  },
+  {
+    name: "threejs",
+    icon: threejs,
+  },
+  {
+    name: "vscode",
+    icon: vscode,
   },
   {
     name: "figma",
