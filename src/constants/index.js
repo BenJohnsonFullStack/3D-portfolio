@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Design & Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full Stack Software",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "React Native Apps",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Databases and APIs",
     icon: creator,
   },
 ];
@@ -117,54 +117,41 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Lobi Software Studio",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing responsive design and accessibility and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Kitchen Manager",
+    company_name: "Chili's",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2022 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked as a management team to achieve the highest unit sales in the State of Utah.",
+      "Managed a staff of 30+ employees and utilized proprietary technology and performance metrics.",
+      "Increased employee wages by 5% for top performers and 1% across HOH (kitchen), while increasing productivity by 1% and reducing labor as a percentage of revenue by 2%",
+      "Achieved the top score among all managers in Northern Utah based on advanced performance metrics.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Owner/Founder",
+    company_name: "Snoots Pet Care",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2016 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed and served a base of 100+ clients performing and overseeing pet care services, including dog walking, cat sitting, exotic animal care, and medication administration.",
+      "Achieved a client turnover rate of <1% and an employee turnover rate of <33% over the life of the company.",
+      "Increased revenue by 300+% from 2021-2022, at the height of the Covid-19 pandemic.",
+      "Managed a small employee base through third-party technology to ensure a quality company culture and high standard of consistent care.",
     ],
   },
 ];
