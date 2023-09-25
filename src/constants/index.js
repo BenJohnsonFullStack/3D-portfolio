@@ -97,8 +97,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "bash",
-    icon: bash,
+    name: "jest",
+    icon: jest,
   },
   {
     name: "express",
@@ -117,8 +117,8 @@ const technologies = [
     icon: illustrator,
   },
   {
-    name: "jest",
-    icon: jest,
+    name: "bash",
+    icon: bash,
   },
   {
     name: "postgres",
@@ -129,12 +129,12 @@ const technologies = [
     icon: postman,
   },
   {
-    name: "threejs",
-    icon: threejs,
-  },
-  {
     name: "vscode",
     icon: vscode,
+  },
+  {
+    name: "threejs",
+    icon: threejs,
   },
   {
     name: "figma",

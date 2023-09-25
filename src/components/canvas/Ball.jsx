@@ -16,6 +16,8 @@ const Ball = ({ imgUrl, index }) => {
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow={true} receiveShadow={true} scale={2.75}>
         <OrbitControls
+          autoRotate
+          autoRotateSpeed={index < 10 ? index + 7 : index + 1}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
