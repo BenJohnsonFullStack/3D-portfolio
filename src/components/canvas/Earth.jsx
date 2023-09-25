@@ -5,6 +5,7 @@ import Loader from "../Loader";
 
 const Earth = () => {
   const earth = useGLTF("./earth/scene.gltf");
+  // "Earth" (https://skfb.ly/6VCKF) by denis_cliofas is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
   return (
     <>
