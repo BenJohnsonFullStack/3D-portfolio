@@ -8,6 +8,7 @@ import {
   useTexture,
 } from "@react-three/drei";
 import Loader from "../Loader";
+import { styles } from "../../style";
 
 const Ball = (props) => {
   return (
@@ -15,9 +16,9 @@ const Ball = (props) => {
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow={true} receiveShadow={true} scale={2.75}>
-        <icosahedronGeometry args={[1, 1]} />
+        <sphereGeometry args={[1, 200, 200]} />
         <meshStandardMaterial
-          color="#fff8eb"
+          color="#4b4363"
           polygonOffset={true}
           polygonOffsetFactor={-5}
           flatShading={true}
