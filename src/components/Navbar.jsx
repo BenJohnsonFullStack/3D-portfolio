@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 import { styles } from "../style";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
 import { scrolltoTop } from "../helpers";
+import MolluskLogo from "./molluskLogo";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -24,11 +25,11 @@ const Navbar = () => {
             scrolltoTop();
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <MolluskLogo />
           <p className="text-white text-[18px] font-bold cursor-pointer flex items-center">
-            Ben &nbsp;
-            <span className="md:block hidden text-[16px]">
-              | &nbsp;Full Stack Developer
+            <div className="w-[2px] h-8 bg-[#aaa6c3] ml-8"></div>
+            <span className="md:block hidden pl-8 text-secondary font-medium text-[14px]">
+              Full Stack Developer
             </span>
           </p>
         </Link>
