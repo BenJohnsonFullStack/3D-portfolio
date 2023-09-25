@@ -17,7 +17,7 @@ const Earth = () => {
       />
       <mesh>
         <hemisphereLight
-          intensity={4}
+          intensity={7}
           position={[0, 5, 1]}
           groundColor="black"
         />
