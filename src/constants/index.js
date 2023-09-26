@@ -24,8 +24,8 @@ import {
   figma,
   chilis,
   lobi,
-  carrent,
-  jobit,
+  gardenom,
+  portfolio,
   tripguide,
 } from "../assets";
 
@@ -213,46 +213,48 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D Web Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A portfolio web application featuring the Three.js and Framer Motion libraries, built to highlight an individual full stack developer's work experience and development projects.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    favicon: lobi,
+    source_code_link: "https://github.com/BenJohnsonFullStack/3D-portfolio",
   },
   {
-    name: "Job IT",
+    name: "Garden Om Yoga",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " A web-based platform that allows users to browse service offerings, book classes, process online payments, and subscribe to newsletters.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "postgresql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: gardenom,
+    favicon: null,
+    source_code_link: "https://github.com/BenJohnsonFullStack/garden-om-site",
   },
   {
     name: "Trip Guide",
@@ -273,6 +275,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    favicon: null,
     source_code_link: "https://github.com/",
   },
 ];

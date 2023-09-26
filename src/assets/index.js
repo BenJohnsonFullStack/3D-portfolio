@@ -33,8 +33,8 @@ import lobi from "./company/lobi.png";
 import chilis from "./company/chilis.png";
 
 // projects
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import gardenom from "./gardenom.png";
+import portfolio from "./portfolio.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -67,7 +67,7 @@ export {
   vscode,
   lobi,
   chilis,
-  carrent,
-  jobit,
+  gardenom,
+  portfolio,
   tripguide,
 };
