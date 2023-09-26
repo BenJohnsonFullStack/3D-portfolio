@@ -26,7 +26,9 @@ import {
   lobi,
   gardenom,
   portfolio,
-  tripguide,
+  linwood,
+  gardenom_favicon,
+  linwood_favicon,
 } from "../assets";
 
 export const navLinks = [
@@ -233,6 +235,7 @@ const projects = [
     image: portfolio,
     favicon: lobi,
     source_code_link: "https://github.com/BenJohnsonFullStack/3D-portfolio",
+    live_url: null,
   },
   {
     name: "Garden Om Yoga",
@@ -253,8 +256,9 @@ const projects = [
       },
     ],
     image: gardenom,
-    favicon: null,
+    favicon: gardenom_favicon,
     source_code_link: "https://github.com/BenJohnsonFullStack/garden-om-site",
+    live_url: "https://www.gardenomyoga.com/",
   },
   {
     name: "Trip Guide",
@@ -262,11 +266,11 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -274,9 +278,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    favicon: null,
-    source_code_link: "https://github.com/",
+    image: linwood,
+    favicon: linwood_favicon,
+    source_code_link: "https://github.com/BenJohnsonFullStack/linwood-pictures",
+    live_url: "https://www.linwoodpictures.com/",
   },
 ];
 

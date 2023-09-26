@@ -35,7 +35,9 @@ import chilis from "./company/chilis.png";
 // projects
 import gardenom from "./gardenom.png";
 import portfolio from "./portfolio.png";
-import tripguide from "./tripguide.png";
+import linwood from "./linwood.png";
+import gardenom_favicon from "./gardenom_favicon.png";
+import linwood_favicon from "./linwood_favicon.png";
 
 export {
   logo,
@@ -69,5 +71,7 @@ export {
   chilis,
   gardenom,
   portfolio,
-  tripguide,
+  linwood,
+  gardenom_favicon,
+  linwood_favicon,
 };
