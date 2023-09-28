@@ -36,8 +36,10 @@ import chilis from "./company/chilis.png";
 import gardenom from "./gardenom.png";
 import portfolio from "./portfolio.png";
 import linwood from "./linwood.png";
-import gardenom_favicon from "./gardenom_favicon.png";
-import linwood_favicon from "./linwood_favicon.png";
+import www from "./www.png";
+
+// testimonials
+import sherri from "./sherri.webp";
 
 export {
   logo,
@@ -72,6 +74,6 @@ export {
   gardenom,
   portfolio,
   linwood,
-  gardenom_favicon,
-  linwood_favicon,
+  www,
+  sherri,
 };

@@ -12,7 +12,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  favicon,
+  live_icon,
   source_code_link,
   live_url,
 }) => {
@@ -49,7 +49,7 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={favicon} // change to site favicon***
+                src={live_icon} // change to site favicon***
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
               />

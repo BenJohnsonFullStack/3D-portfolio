@@ -27,8 +27,8 @@ import {
   gardenom,
   portfolio,
   linwood,
-  gardenom_favicon,
-  linwood_favicon,
+  www,
+  sherri,
 } from "../assets";
 
 export const navLinks = [
@@ -189,11 +189,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Ben's work was professional and captivating. He truly captured the essence of our unique yoga business.",
+    name: "Sherri Johnston",
+    designation: "President",
+    company: "Abella Health",
+    image: sherri,
   },
   {
     testimonial:
@@ -233,7 +233,7 @@ const projects = [
       },
     ],
     image: portfolio,
-    favicon: lobi,
+    live_icon: www,
     source_code_link: "https://github.com/BenJohnsonFullStack/3D-portfolio",
     live_url: null,
   },
@@ -256,14 +256,14 @@ const projects = [
       },
     ],
     image: gardenom,
-    favicon: gardenom_favicon,
+    live_icon: www,
     source_code_link: "https://github.com/BenJohnsonFullStack/garden-om-site",
     live_url: "https://www.gardenomyoga.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Linwood Pictures",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A fully responsive landing page for a film and television production company highlighting and linking to their current projects and personnel.",
     tags: [
       {
         name: "html",
@@ -279,7 +279,7 @@ const projects = [
       },
     ],
     image: linwood,
-    favicon: linwood_favicon,
+    live_icon: www,
     source_code_link: "https://github.com/BenJohnsonFullStack/linwood-pictures",
     live_url: "https://www.linwoodpictures.com/",
   },
