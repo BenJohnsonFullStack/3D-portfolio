@@ -7,10 +7,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-// template_d1v8y8f
-// service_p6an34u
-// 9XZ5Lzamj_P6uvMA1
-
 const initialFormValues = {
   name: "",
   email: "",
