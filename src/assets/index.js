@@ -41,6 +41,7 @@ import www from "./www.png";
 // testimonials
 import sherri from "./sherri.webp";
 import esraa from "./esraa.jpg";
+import mark from "./mark.jpg";
 
 export {
   logo,
@@ -78,4 +79,5 @@ export {
   www,
   sherri,
   esraa,
+  mark,
 };
