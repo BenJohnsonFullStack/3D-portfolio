@@ -40,6 +40,7 @@ import www from "./www.png";
 
 // testimonials
 import sherri from "./sherri.webp";
+import esraa from "./esraa.jpg";
 
 export {
   logo,
@@ -76,4 +77,5 @@ export {
   linwood,
   www,
   sherri,
+  esraa,
 };

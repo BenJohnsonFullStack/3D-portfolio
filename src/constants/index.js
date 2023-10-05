@@ -29,6 +29,7 @@ import {
   linwood,
   www,
   sherri,
+  esraa,
 } from "../assets";
 
 export const navLinks = [
@@ -197,11 +198,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Ben isn't just a proficient developer, but also possesses the mindset of a technology architect. Highly recommend.",
+    name: "Esraa Qandeel",
+    designation: "Senior Developer",
+    company: "Trilogy",
+    image: esraa,
   },
   {
     testimonial:
