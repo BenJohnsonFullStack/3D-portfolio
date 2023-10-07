@@ -16,6 +16,7 @@ const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState(initialFormValues);
   const [loading, setLoading] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -29,30 +30,35 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        "service_p6an34u",
-        "template_d1v8y8f",
-        {
-          from_name: form.name,
-          to_name: "Ben Johnson",
-          from_email: form.email,
-          to_email: "lobi.software.studio@gmail.com",
-          message: form.message,
-        },
-        "9XZ5Lzamj_P6uvMA1"
-      )
-      .then(() => {
-        setLoading(false);
-        alert(
-          "Thank you for contacting me. I will get back to you as soon as possible."
-        );
-        setForm(initialFormValues);
-      })
-      .catch((err) => {
-        setLoading(false);
-        console.log(err);
-      });
+    if (!form.name || !form.email || !form.message) {
+      setLoading(false);
+      setSubmitMessage("Please fill out all fields");
+    } else {
+      emailjs
+        .send(
+          "service_p6an34u",
+          "template_d1v8y8f",
+          {
+            from_name: form.name,
+            to_name: "Ben Johnson",
+            from_email: form.email,
+            to_email: "lobi.software.studio@gmail.com",
+            message: form.message,
+          },
+          "9XZ5Lzamj_P6uvMA1"
+        )
+        .then(() => {
+          setLoading(false);
+          setSubmitMessage(
+            "Thank you for contacting me. I will get back to you as soon as possible."
+          );
+          setForm(initialFormValues);
+        })
+        .catch((err) => {
+          setLoading(false);
+          console.log(err);
+        });
+    }
   };
 
   return (
@@ -114,6 +120,7 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          <p className="text-white">{submitMessage}</p>
         </form>
       </motion.div>
 
