@@ -32,7 +32,9 @@ const Contact = () => {
 
     if (!form.name || !form.email || !form.message) {
       setLoading(false);
-      setSubmitMessage("Please fill out all fields");
+      setSubmitMessage(
+        "Oopsie daisy! You forgot to fill out all fields. Self-destruct countdown initiated..."
+      );
     } else {
       emailjs
         .send(
@@ -50,7 +52,7 @@ const Contact = () => {
         .then(() => {
           setLoading(false);
           setSubmitMessage(
-            "Thank you for contacting me. I will get back to you as soon as possible."
+            "Thanks for your message. It has been queued for inspection by 19 well-trained orangutans. I will get back with you as soon as possible."
           );
           setForm(initialFormValues);
         })
@@ -120,7 +122,13 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          <p className="text-white">{submitMessage}</p>
+          <p
+            className={
+              submitMessage.includes("Oops") ? "text-red-600" : "text-white"
+            }
+          >
+            {submitMessage}
+          </p>
         </form>
       </motion.div>
 
