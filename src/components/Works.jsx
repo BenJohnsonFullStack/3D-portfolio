@@ -5,6 +5,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { HashLink } from "react-router-hash-link";
 
 const ProjectCard = ({
   index,
@@ -49,7 +50,7 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={live_icon} // change to site favicon***
+                src={live_icon}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
               />
@@ -90,10 +91,13 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-          assumenda ipsum omnis iure quibusdam reiciendis ex soluta sequi facere
-          ullam, eius perspiciatis, voluptas dolorum nesciunt optio! Aspernatur
-          doloremque ipsum sequi.
+          Feel free to explore a few of my web projects below, or reach out via
+          the{" "}
+          <HashLink to="#contact" className="text-[#915eff]">
+            Contact Form
+          </HashLink>{" "}
+          below for more information on the business logistic softwares I'm
+          currently developing.
         </motion.p>
       </div>
 
