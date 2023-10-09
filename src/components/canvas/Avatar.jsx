@@ -28,8 +28,8 @@ function Avatar() {
         <pointLight intensity={5} position={[2, 2, 2]} />
         <primitive
           object={avatar.scene}
-          scale={3}
-          position-y={-5}
+          scale={0.75}
+          position-y={-1.5}
           rotation-y={0}
         />
       </mesh>
