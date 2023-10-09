@@ -1,6 +1,12 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Canvas } from "@react-three/fiber";
-import { Suspense } from "react";
-import { OrbitControls, Preload } from "@react-three/drei";
+import { Suspense, useEffect, useRef } from "react";
+import {
+  OrbitControls,
+  Preload,
+  useAnimations,
+  useFBX,
+} from "@react-three/drei";
 import Loader from "../Loader";
 
 /*
@@ -10,16 +16,29 @@ Command: npx gltfjsx@6.2.13 public/models/avatar.glb
 import { useGLTF } from "@react-three/drei";
 
 function Avatar() {
+  const animationGroup = useRef();
+
   const avatar = useGLTF("./models/avatar.glb");
+  const { animations: dance } = useFBX("./animations/dance.fbx");
+
+  dance[0].name = "dance";
+
+  const { actions } = useAnimations(dance, animationGroup);
+
+  useEffect(() => {
+    actions["dance"].reset().play();
+  }, []);
+
   return (
     <>
       <OrbitControls
         autoRotate={true}
+        autoRotateSpeed={4}
         enableZoom={false}
         maxPolarAngle={Math.PI / 2}
         minPolarAngle={Math.PI / 2}
       />
-      <mesh>
+      <mesh ref={animationGroup}>
         <hemisphereLight
           intensity={7}
           position={[0, 5, 1]}
@@ -28,8 +47,8 @@ function Avatar() {
         <pointLight intensity={5} position={[2, 2, 2]} />
         <primitive
           object={avatar.scene}
-          scale={0.75}
-          position-y={-1.5}
+          scale={0.9}
+          position-y={-1.7}
           rotation-y={0}
         />
       </mesh>
