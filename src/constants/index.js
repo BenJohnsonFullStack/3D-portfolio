@@ -26,7 +26,7 @@ import {
   lobi,
   gardenom,
   portfolio,
-  linwood,
+  jobit,
   www,
   sherri,
   esraa,
@@ -265,25 +265,26 @@ const projects = [
   {
     name: "Linwood Pictures",
     description:
-      "A fully responsive landing page for a film and television production company highlighting and linking to their current projects and personnel.",
+      "An Android and iOS compatible mobile app that empowers users to search and apply for tech jobs that match their unique skills and qualifications.",
     tags: [
       {
-        name: "html",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "expo",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "rapidapi",
         color: "pink-text-gradient",
       },
     ],
-    image: linwood,
+    image: jobit,
     live_icon: www,
-    source_code_link: "https://github.com/BenJohnsonFullStack/linwood-pictures",
-    live_url: "https://www.linwoodpictures.com/",
+    source_code_link: "https://github.com/BenJohnsonFullStack/jobit",
+    live_url:
+      "https://expo.dev/accounts/lobisoftwarestudio/projects/jobit/updates/feb374d0-f7a9-4264-88de-675cad706b86",
   },
 ];
 

@@ -6,7 +6,7 @@ import { styles } from "../style";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import { scrolltoTop } from "../helpers";
-import MolluskLogo from "./molluskLogo";
+import MolluskLogo from "./MolluskLogo";
 
 const Navbar = () => {
   const [active, setActive] = useState("");

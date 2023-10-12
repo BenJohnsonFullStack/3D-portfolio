@@ -35,7 +35,7 @@ import chilis from "./company/chilis.png";
 // projects
 import gardenom from "./gardenom.png";
 import portfolio from "./portfolio.png";
-import linwood from "./linwood.png";
+import jobit from "./jobit.webp";
 import www from "./www.png";
 
 // testimonials
@@ -75,7 +75,7 @@ export {
   chilis,
   gardenom,
   portfolio,
-  linwood,
+  jobit,
   www,
   sherri,
   esraa,
