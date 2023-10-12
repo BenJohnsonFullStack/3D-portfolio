@@ -263,7 +263,7 @@ const projects = [
     live_url: "https://www.gardenomyoga.com/",
   },
   {
-    name: "Linwood Pictures",
+    name: "Jobit Mobile App",
     description:
       "An Android and iOS compatible mobile app that empowers users to search and apply for tech jobs that match their unique skills and qualifications.",
     tags: [
