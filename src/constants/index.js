@@ -31,6 +31,7 @@ import {
   sherri,
   esraa,
   mark,
+  cart,
 } from "../assets";
 
 export const navLinks = [
@@ -207,11 +208,12 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Mark Brice",
-    designation: "Career Coach",
+      "Ben excels in technical skill acquisition and goes above and beyond expectations in his work.",
+    name: "Rachel Cohen",
+    designation: "Director - Operations & Coaching",
     company: "BloomTech",
-    image: mark,
+    image:
+      "https://media.licdn.com/dms/image/C4E03AQEwf0_Zo-Y_xg/profile-displayphoto-shrink_800_800/0/1517728346849?e=1702512000&v=beta&t=ukxKY278CWhqCGGTRdzXMx4gImaWslhHC0RsZh46VfI",
   },
 ];
 
@@ -285,6 +287,29 @@ const projects = [
     source_code_link: "https://github.com/BenJohnsonFullStack/jobit",
     live_url:
       "https://expo.dev/accounts/lobisoftwarestudio/projects/jobit/updates/feb374d0-f7a9-4264-88de-675cad706b86",
+  },
+  {
+    name: "Online Shopping Cart",
+    description:
+      "A fully responsive shopping cart that allows users to add and remove items. Implements quantity and price calculation and Local Storage.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cart,
+    live_icon: null,
+    source_code_link: "https://github.com/BenJohnsonFullStack/shopping-cart",
+    live_url: null,
   },
 ];
 

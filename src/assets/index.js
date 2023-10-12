@@ -36,12 +36,12 @@ import chilis from "./company/chilis.png";
 import gardenom from "./gardenom.png";
 import portfolio from "./portfolio.png";
 import jobit from "./jobit.webp";
+import cart from "./cart.webp";
 import www from "./www.png";
 
 // testimonials
 import sherri from "./sherri.webp";
 import esraa from "./esraa.jpg";
-import mark from "./mark.jpg";
 
 export {
   logo,
@@ -79,5 +79,5 @@ export {
   www,
   sherri,
   esraa,
-  mark,
+  cart,
 };
