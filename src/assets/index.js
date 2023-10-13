@@ -38,6 +38,7 @@ import portfolio from "./portfolio.png";
 import jobit from "./jobit.webp";
 import cart from "./cart.webp";
 import www from "./www.png";
+import chatbot from "./chatbot.webp";
 
 // testimonials
 import sherri from "./sherri.webp";
@@ -80,4 +81,5 @@ export {
   sherri,
   esraa,
   cart,
+  chatbot,
 };

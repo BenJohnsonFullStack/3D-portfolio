@@ -30,8 +30,8 @@ import {
   www,
   sherri,
   esraa,
-  mark,
   cart,
+  chatbot,
 } from "../assets";
 
 export const navLinks = [
@@ -309,6 +309,29 @@ const projects = [
     image: cart,
     live_icon: null,
     source_code_link: "https://github.com/BenJohnsonFullStack/shopping-cart",
+    live_url: null,
+  },
+  {
+    name: "OpenAI Chatbot",
+    description:
+      "A personal chatbot assistant utilizing the OpenAI GPT 3.5 Turbo engine. Features include an automatic scroll and prisma database storage.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatbot,
+    live_icon: null,
+    source_code_link: "https://github.com/BenJohnsonFullStack/chatbot",
     live_url: null,
   },
 ];
