@@ -159,7 +159,7 @@ const experiences = [
     title: "Kitchen Manager",
     company_name: "Chili's",
     icon: chilis,
-    iconBg: "#E6DEDD",
+    iconBg: "gray",
     date: "March 2022 - Feb 2023",
     points: [
       "Worked as a management team to achieve the highest unit sales in the State of Utah.",
@@ -171,8 +171,8 @@ const experiences = [
   {
     title: "Owner/Founder",
     company_name: "Snoots Pet Care",
-    icon: reactjs,
-    iconBg: "#383E56",
+    icon: "https://static.wixstatic.com/media/fea5c9_c3ce7b12e6244894b9869bad3d79d763~mv2.png/v1/fill/w_185,h_166,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fea5c9_c3ce7b12e6244894b9869bad3d79d763~mv2.png",
+    iconBg: "#edece8",
     date: "Aug 2016 - April 2022",
     points: [
       "Managed and served a base of 100+ clients performing and overseeing pet care services, including dog walking, cat sitting, exotic animal care, and medication administration.",
