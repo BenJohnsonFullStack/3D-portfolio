@@ -94,18 +94,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -146,20 +134,8 @@ const technologies = [
     icon: illustrator,
   },
   {
-    name: "bash",
-    icon: bash,
-  },
-  {
     name: "postgres",
     icon: postgres,
-  },
-  {
-    name: "postman",
-    icon: postman,
-  },
-  {
-    name: "vscode",
-    icon: vscode,
   },
   {
     name: "threejs",
