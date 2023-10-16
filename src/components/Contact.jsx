@@ -79,7 +79,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
-          <label htmlFor="name" className="flex flex-col">
+          <label htmlFor="your_name" className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
               type="text"
