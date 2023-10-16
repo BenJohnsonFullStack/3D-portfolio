@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="h-full">
+        <div className="h-full pointer-events-none">
           <AvatarCanvas />
         </div>
       </div>
