@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { styles } from "../style";
-import { AvatarCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -25,9 +24,6 @@ const Hero = () => {
               <span className="text-[#915eff]">everyone.</span>
             </p>
           </div>
-        </div>
-        <div className="h-full">
-          <AvatarCanvas />
         </div>
       </div>
     </section>
