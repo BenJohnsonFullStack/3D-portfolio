@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./github.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -31,6 +31,9 @@ import vscode from "./tech/vscode.png";
 // work experience
 import lobi from "./company/lobi.png";
 import chilis from "./company/chilis.png";
+
+import instagram from "./instagram-icon.svg";
+import linkedin from "./linkedin-icon.svg";
 
 // projects
 import gardenom from "./gardenom.png";
@@ -82,4 +85,6 @@ export {
   esraa,
   cart,
   chatbot,
+  instagram,
+  linkedin,
 };

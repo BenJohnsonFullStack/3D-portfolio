@@ -32,6 +32,9 @@ import {
   esraa,
   cart,
   chatbot,
+  github,
+  instagram,
+  linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -46,6 +49,27 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+const socials = [
+  {
+    id: 1,
+    title: "github",
+    icon: github,
+    url: "https://github.com/BenJohnsonFullStack",
+  },
+  {
+    id: 2,
+    title: "instagram",
+    icon: instagram,
+    url: "https://www.instagram.com/lobi_software_studio/",
+  },
+  {
+    id: 3,
+    title: "linkedin",
+    icon: linkedin,
+    url: "https://www.linkedin.com/in/benjohnsonfullstack/",
   },
 ];
 
@@ -336,4 +360,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, socials };
