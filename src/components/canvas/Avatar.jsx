@@ -58,16 +58,18 @@ function Avatar() {
 
 const AvatarCanvas = () => {
   return (
-    <Canvas
-      frameloop="demand"
-      gl={{ preserveDrawingBuffer: true }}
-      camera={{ fov: 45, near: 0.1, far: 200, position: [-4, -2, 0] }}
-    >
-      <Suspense fallback={<Loader />}>
-        <Avatar />
-      </Suspense>
-      <Preload all />
-    </Canvas>
+    <div className="overflow-hidden relative pointer-events-none">
+      <Canvas
+        frameloop="demand"
+        gl={{ preserveDrawingBuffer: true }}
+        camera={{ fov: 45, near: 0.1, far: 200, position: [-4, -2, 0] }}
+      >
+        <Suspense fallback={<Loader />}>
+          <Avatar />
+        </Suspense>
+        <Preload all />
+      </Canvas>
+    </div>
   );
 };
 
