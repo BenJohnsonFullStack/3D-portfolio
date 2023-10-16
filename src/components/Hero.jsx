@@ -4,6 +4,10 @@ import { styles } from "../style";
 import { AvatarCanvas } from "./canvas";
 
 const Hero = () => {
+  const isMobile = window.matchMedia(
+    "only screen and (max-width: 760px)"
+  ).matches;
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className="h-full">
@@ -26,9 +30,11 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="h-full">
-          <AvatarCanvas />
-        </div>
+        {isMobile && (
+          <div className="h-full">
+            <AvatarCanvas />
+          </div>
+        )}
       </div>
     </section>
   );
