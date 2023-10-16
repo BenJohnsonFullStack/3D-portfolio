@@ -58,7 +58,7 @@ function Avatar() {
 
 const AvatarCanvas = () => {
   return (
-    <div className="overflow-hidden relative pointer-events-none">
+    <div className="pointer-events-none">
       <Canvas
         frameloop="demand"
         gl={{ preserveDrawingBuffer: true }}
